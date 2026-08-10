@@ -26,7 +26,7 @@ class Codechef
 		    
 		    int lead = Math.abs(p1 - p2);
 		    
-		    if(lead > maxLead){
+		    if(lead >= maxLead){
 		        lead = maxLead;
 		        
 		        if(p1>p2){
