@@ -61,7 +61,7 @@ Therefore, the total amount is $600$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:30:12.996Z  
+**Submitted:** 2026-08-10T14:31:48.449Z  
 
 ```java
 import java.util.*;
