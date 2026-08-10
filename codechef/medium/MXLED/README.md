@@ -92,7 +92,7 @@ The maximum lead is $10$, achieved by Player $2$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T15:16:42.816Z  
+**Submitted:** 2026-08-10T15:17:38.236Z  
 
 ```java
 import java.util.*;
@@ -123,7 +123,7 @@ class Codechef
 		    
 		    int lead = Math.abs(p1 - p2);
 		    
-		    if(lead > maxLead){
+		    if(lead >= maxLead){
 		        lead = maxLead;
 		        
 		        if(p1>p2){
