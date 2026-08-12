@@ -88,7 +88,7 @@ $6$ is even, so the answer is `Yes`.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:49:58.565Z  
+**Submitted:** 2026-08-12T15:51:31.535Z  
 
 ```java
 import java.util.*;
@@ -105,11 +105,11 @@ class Codechef
 		int l = sc.nextInt();
 		int r = sc.nextInt();
 		
-		boolean Found = false;
+		boolean Found = true;
 		
 		for(int i = l; i<r; i++){
-		    if(i%2==0){
-		        Found = true;
+		    if(l==r && i%2!=0){
+		        Found = false;
 		        break;
 		    }
 		}
