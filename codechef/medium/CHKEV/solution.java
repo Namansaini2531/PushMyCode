@@ -12,16 +12,7 @@ class Codechef
 		int l = sc.nextInt();
 		int r = sc.nextInt();
 		
-		boolean Found = true;
-		
-		for(int i = l; i<r; i++){
-		    if(l==r || i%2!=0){
-		        Found = false;
-		        break;
-		    }
-		}
-		
-		if(Found == true){
+		if(l%2==0 || r%2==0 || l<r){
 		    System.out.println("Yes");
 		}
 		else{
