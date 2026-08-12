@@ -12,11 +12,11 @@ class Codechef
 		int l = sc.nextInt();
 		int r = sc.nextInt();
 		
-		boolean Found = false;
+		boolean Found = true;
 		
 		for(int i = l; i<r; i++){
-		    if(i%2==0){
-		        Found = true;
+		    if(l==r && i%2!=0){
+		        Found = false;
 		        break;
 		    }
 		}
