@@ -14,8 +14,8 @@ class Codechef
 		
 		boolean Found = false;
 		
-		for(; l<r; l++){
-		    if(l%2==0){
+		for(int i = l; i<r; i++){
+		    if(i%2==0){
 		        Found = true;
 		        break;
 		    }
