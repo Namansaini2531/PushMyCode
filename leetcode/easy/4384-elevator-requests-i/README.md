@@ -60,19 +60,20 @@ The total time required is `2 + 2 + 0 = 4` seconds.
 
 **Language:** Java  
 **Runtime:** 1 ms (beats 100.00%)  
-**Memory:** 45 MB  
-**Submitted:** 2026-08-15T15:03:21.876Z  
+**Memory:** 44.8 MB  
+**Submitted:** 2026-08-15T15:17:20.118Z  
 
 ```java
 class Solution {
     public int elevatorRequests(int n, int[] requests) {
         int floor = 0;
         int secs = 0;
-        for(int i = 0; i<requests.length; i++){
+
+        for(int i = 0; i < requests.length; i++){
             secs = secs + Math.abs(requests[i] - floor);
             floor = requests[i];
-            
         }
+
         return secs;
     }
 }
