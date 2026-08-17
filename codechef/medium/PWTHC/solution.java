@@ -13,7 +13,7 @@ class Codechef
 		int k = sc.nextInt();
 		int p = sc.nextInt();
 		
-		if(n*k > p){
+		if(n*k >= p){
 		    System.out.println("YES");
 		}
 		else{
