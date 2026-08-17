@@ -70,7 +70,7 @@ Therefore, all  **6 cars**  can move at their maximum speed.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T14:50:19.693Z  
+**Submitted:** 2026-08-17T16:05:32.668Z  
 
 ```java
 import java.util.*;
