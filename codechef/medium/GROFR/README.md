@@ -67,14 +67,12 @@ Therefore, the total number of groups is  **4**.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T14:42:41.513Z  
+**Submitted:** 2026-08-17T14:44:40.058Z  
 
 ```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
-import java.util.*;
 
 class Codechef {
     public static void main(String[] args) {
@@ -82,7 +80,16 @@ class Codechef {
 
         int n = sc.nextInt();
         String s = sc.next();
-
+        
+        int groups = 0;
+        
+        for(int i = 0; i < n; i++){
+            if (s.charAt(i) == '1' && (i == 0 || s.charAt(i - 1) == '0')) {
+                groups++;
+            }
+        }
+        
+        System.out.println(groups);
 	}
 }
 
