@@ -8,6 +8,7 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
+		int[] arr = new int
 		
 		int t = sc.nextInt;
 		
