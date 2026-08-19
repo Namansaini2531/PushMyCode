@@ -8,7 +8,7 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
-		
+		int ans = 0;
 		int t = sc.nextInt();
 		
 		while(t-- > 0){
@@ -19,15 +19,11 @@ class Codechef
 		    for(int i = 0; i<arr.length; i++){
 		        arr[i] = sc.nextInt();
 		    }
-		    
-		    		int ans = 0;
 		
-		for(int i = 0; i < n; i++){
-		    ans = ans + Math.max(arr[i], arr[2 * n - 1 - i]);
+	    	for(int i = 0; i < n; i++){
+		        ans = ans + Math.max(arr[i], arr[2 * n - 1 - i]);
+		    }
 		}
-		}
-		
-		int ans = 0;
 		
 		System.out.println(ans);
 	}
