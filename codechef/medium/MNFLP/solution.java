@@ -23,7 +23,7 @@ class Codechef
 		    }
 		    
 		    if(sum % 2 != 0){
-		        System.out.println(0);
+		        System.out.println(-1);
 		    }
 		    else{
 		        System.out.println(Math.abs(sum)/2);
