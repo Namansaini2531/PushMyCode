@@ -59,7 +59,7 @@ For the third test case, its sum cannot be made `0`. Therefore, the answer is `-
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:06:38.701Z  
+**Submitted:** 2026-08-24T14:09:26.723Z  
 
 ```java
 import java.util.*;
