@@ -15,29 +15,18 @@ class Codechef
 		    int n = sc.nextInt();
 		    
 		    int[] arr =  new int[n];
-		    
-		    int countA = 0;
-		    int countB = 0;
+		    int sum = 0;
 		    
 		    for(int i = 0; i < n; i++){
-		        if(arr[i] == 1){
-		            countA++;
-		        }
-		        else if(arr[i] == -1){
-		            countB++;
-		        }
+		        arr[i] = sc.nextInt();
+		        sum += arr[i];
 		    }
 		    
-		    int diff = Math.abs(countA - countB);
-		    
-		    if(diff == 0){
+		    if(sum % 2 != 0){
 		        System.out.println(0);
 		    }
-		    else if(diff == 1){
-		        System.out.println(1);
-		    }
 		    else{
-		        System.out.println(-1);
+		        System.out.println(Math.abs(sum)/2);
 		    }
 		}
 	}
