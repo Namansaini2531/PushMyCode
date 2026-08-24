@@ -59,7 +59,7 @@ For the third test case, its sum cannot be made `0`. Therefore, the answer is `-
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:11:32.060Z  
+**Submitted:** 2026-08-24T14:12:33.817Z  
 
 ```java
 import java.util.*;
@@ -87,7 +87,7 @@ class Codechef
 		    }
 		    
 		    if(sum % 2 != 0){
-		        System.out.println(0);
+		        System.out.println(-1);
 		    }
 		    else{
 		        System.out.println(Math.abs(sum)/2);
