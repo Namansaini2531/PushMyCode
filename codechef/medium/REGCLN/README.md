@@ -80,7 +80,7 @@ Today is day $49$. The next deep cleaning will be on day $50$, so the answer is 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:46:49.123Z  
+**Submitted:** 2026-08-26T15:58:32.174Z  
 
 ```java
 import java.util.*;
@@ -96,7 +96,9 @@ class Codechef
 		
 		int n = sc.nextInt();
 		
-		for(int i = 0; i )
+		int x = 10 - (n % 10);
+		
+		System.out.println(x);
 	}
 }
 
