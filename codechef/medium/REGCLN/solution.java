@@ -11,6 +11,8 @@ class Codechef
 		
 		int n = sc.nextInt();
 		
-		for(int i = 0; i )
+		int x = 10 - (n % 10);
+		
+		System.out.println(x);
 	}
 }
