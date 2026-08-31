@@ -19,10 +19,28 @@ class Codechef
 		
 		int x = sc.nextInt();
 		
-		int r = 0;
+		int count = 0;
+		int index = -1;
 		
-		for(int l = 0; i < n; l++){
-		    
+		for(int i = 0; i < n; i++){
+		    if(arr[i] == x){
+		        count++;
+		        
+		        if(count == 2){
+		            index = i;
+		            break;
+		        }
+		    }
+		}
+		
+		if(index != -1){
+		    System.out.println(index);
+		}
+		else if(count == 0){
+		    System.out.println(-1);
+		}
+		else{
+		    System.out.println(-2);
 		}
 	}
 }
