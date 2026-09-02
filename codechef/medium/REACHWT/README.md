@@ -52,7 +52,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T15:32:11.198Z  
+**Submitted:** 2026-09-02T15:36:08.382Z  
 
 ```java
 import java.util.*;
@@ -68,9 +68,11 @@ class Codechef
 		
 		int t = sc.nextInt();
 		
-		int n = sc.nextInt();
-		
-		
+		while(t-- > 0){
+		    int n = sc.nextInt();
+		    
+		    System.out.println( ((n/2) * 30) + (n%2) * 20);
+		}
 	}
 }
 
