@@ -55,7 +55,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T15:24:11.555Z  
+**Submitted:** 2026-09-02T15:25:19.827Z  
 
 ```java
 import java.util.*;
@@ -72,7 +72,7 @@ class Codechef
 		int s = sc.nextInt();
 		
 		if(s >= 6 && s<=9){
-		    System.out.println(9 - s);
+		    System.out.println(10 - s);
 		}
 	}
 }
