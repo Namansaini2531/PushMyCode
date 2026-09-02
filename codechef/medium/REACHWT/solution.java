@@ -11,8 +11,10 @@ class Codechef
 		
 		int t = sc.nextInt();
 		
-		int n = sc.nextInt();
-		
-		
+		while(t-- > 0){
+		    int n = sc.nextInt();
+		    
+		    System.out.println( ((n/2) * 30) + (n%2) * 20);
+		}
 	}
 }
