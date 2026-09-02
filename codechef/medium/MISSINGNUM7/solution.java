@@ -12,7 +12,7 @@ class Codechef
 		int s = sc.nextInt();
 		
 		if(s >= 6 && s<=9){
-		    System.out.println(9 - s);
+		    System.out.println(10 - s);
 		}
 	}
 }
