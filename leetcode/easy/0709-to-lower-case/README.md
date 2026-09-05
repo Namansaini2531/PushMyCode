@@ -43,8 +43,8 @@ Output: "lovely"
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.9 MB (beats 68.14%)  
-**Submitted:** 2026-09-05T17:53:33.886Z  
+**Memory:** 42.9 MB (beats 51.55%)  
+**Submitted:** 2026-09-05T18:04:59.512Z  
 
 ```java
 class Solution {
