@@ -63,8 +63,8 @@ Since `score` equals `k` for only 1 cyclic rotation of `s`, the answer is 1.
 
 **Language:** Java  
 **Runtime:** 1 ms (beats 100.00%)  
-**Memory:** 43.6 MB (beats 100.00%)  
-**Submitted:** 2026-09-06T03:15:56.069Z  
+**Memory:** 43.8 MB (beats 87.41%)  
+**Submitted:** 2026-09-06T08:17:20.721Z  
 
 ```java
 class Solution {
