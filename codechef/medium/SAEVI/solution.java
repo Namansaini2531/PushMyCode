@@ -9,8 +9,8 @@ class Codechef
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
 		
-		int n = sc.nextInt();
-		int k = sc.nextInt();
+		long n = sc.nextLong();
+		Long k = sc.nextLong();
 		
 		int[] arr = new int[n];
 		long sum = 0;
