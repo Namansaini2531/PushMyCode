@@ -83,7 +83,7 @@ Therefore, the required sum is `0`.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:03:22.269Z  
+**Submitted:** 2026-09-07T14:03:56.285Z  
 
 ```java
 import java.util.*;
@@ -97,8 +97,8 @@ class Codechef
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
 		
-		int n = sc.nextInt();
-		int k = sc.nextInt();
+		long n = sc.nextLong();
+		Long k = sc.nextLong();
 		
 		int[] arr = new int[n];
 		long sum = 0;
