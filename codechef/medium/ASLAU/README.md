@@ -71,7 +71,7 @@ Since $550 < 600$, the answer is `NO`
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:51:05.426Z  
+**Submitted:** 2026-09-07T13:51:56.994Z  
 
 ```java
 import java.util.*;
@@ -90,7 +90,7 @@ class Codechef
 	
 	    int x = sc.nextInt();
 	
-	    if(a*b >= x){
+	    if(a+b >= x){
 	        System.out.println("YES");
 	    }
 	    else{
