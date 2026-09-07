@@ -14,7 +14,7 @@ class Codechef
 	
 	    int x = sc.nextInt();
 	
-	    if(a*b >= x){
+	    if(a+b >= x){
 	        System.out.println("YES");
 	    }
 	    else{
