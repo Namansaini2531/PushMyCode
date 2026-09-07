@@ -19,8 +19,7 @@ class Codechef
 		int m = sc.nextInt();
 		
 		for(int i = 0; i < n; i++){
-		    arr[i] = arr[i] >> m;
-		    System.out.println(arr[i] + " ");
+		    System.out.println((arr[i] >> m) + " ");
 		}
 	}
 }
