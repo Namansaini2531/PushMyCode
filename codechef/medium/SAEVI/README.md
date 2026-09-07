@@ -83,7 +83,7 @@ Therefore, the required sum is `0`.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:56:45.460Z  
+**Submitted:** 2026-09-07T14:03:04.051Z  
 
 ```java
 import java.util.*;
