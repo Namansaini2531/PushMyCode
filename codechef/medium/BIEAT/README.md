@@ -73,7 +73,7 @@ Each number has at most $4$ significant bits, so removing $4$ least significant 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:08:02.651Z  
+**Submitted:** 2026-09-07T14:12:43.412Z  
 
 ```java
 import java.util.*;
@@ -85,7 +85,21 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		int[] arr = new int[n];
+		
+		for(int i : arr){
+		    arr[i] = sc.nextInt();
+		}
+		
+		int m = sc.nextInt();
+		
+		for(int i = 0; i < n; i++){
+		    arr[i] = arr[i] >> m;
+		    System.out.println(arr[i] + " ");
+		}
 	}
 }
 
