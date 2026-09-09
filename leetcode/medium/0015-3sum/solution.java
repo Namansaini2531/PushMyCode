@@ -26,6 +26,13 @@ class Solution {
 
                     result.add(triplet);
 
+                    while(l<r &&nums[l] == nums[l+1]){
+                        l++;
+                    }
+                    while(l<r && nums[r] == nums[r-1]){
+                        r--;
+                    }
+
                     l++;
                     r--;
                 }
