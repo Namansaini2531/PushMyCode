@@ -52,9 +52,9 @@ Explanation: The only possible triplet sums up to 0.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms  
-**Memory:** 43 MB  
-**Submitted:** 2026-09-09T06:51:21.863Z  
+**Runtime:** 34 ms (beats 58.19%)  
+**Memory:** 60.2 MB (beats 11.34%)  
+**Submitted:** 2026-09-09T06:55:05.808Z  
 
 ```java
 class Solution {
@@ -84,6 +84,13 @@ class Solution {
                     triplet.add(nums[r]);
 
                     result.add(triplet);
+
+                    while(l<r &&nums[l] == nums[l+1]){
+                        l++;
+                    }
+                    while(l<r && nums[r] == nums[r-1]){
+                        r--;
+                    }
 
                     l++;
                     r--;
