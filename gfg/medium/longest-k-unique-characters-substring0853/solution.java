@@ -16,21 +16,20 @@ class Solution {
             else{
                 map.put(ch, map.get(ch) + 1);
             }
-        while(map.size() > k){
-            char chh = s.charAt(l);
-            if(map.get(chh) == 1){
-                map.remove(chh);
+            while(map.size() > k){
+                char chh = s.charAt(l);
+                if(map.get(chh) == 1){
+                    map.remove(chh);
+                }
+                else{
+                    map.put(chh, map.get(chh) - 1);
+                }
+                l++;
             }
-            else{
-                map.put(chh, map.get(chh) - 1);
+            if(map.size() == k){
+                max = Math.max(max, r - l + 1);
             }
-            l++;
-        }
-        if(map.size() == k){
-            max = Math.max(max, r - l + 1);
-            
-        }
-        r++;
+            r++;
         }
         return max == 0 ? -1 : max;
     }
