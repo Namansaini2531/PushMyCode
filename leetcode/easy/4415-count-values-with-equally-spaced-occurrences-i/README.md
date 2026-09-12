@@ -60,8 +60,8 @@ Therefore, the answer is 2.
 
 **Language:** Java  
 **Runtime:** 5 ms (beats 100.00%)  
-**Memory:** 46.5 MB (beats 100.00%)  
-**Submitted:** 2026-09-12T15:55:59.650Z  
+**Memory:** 46.8 MB (beats 100.00%)  
+**Submitted:** 2026-09-12T15:59:03.337Z  
 
 ```java
 class Solution {
