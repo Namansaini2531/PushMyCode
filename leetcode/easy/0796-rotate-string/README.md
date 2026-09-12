@@ -38,14 +38,16 @@ Output: false
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 98.44%)  
-**Memory:** 43.6 MB (beats 15.58%)  
-**Submitted:** 2026-09-12T20:01:15.552Z  
+**Runtime:** 2 ms (beats 63.58%)  
+**Memory:** 43.5 MB (beats 49.67%)  
+**Submitted:** 2026-09-12T20:02:38.574Z  
 
 ```java
 class Solution {
-    public boolean rotateString(String s, String goal) {
+    public boolean rotateString(String s, String goal) 
+    {
         if(s.length() != goal.length()) return false;
+
         return (s + s).contains(goal);
     }
 }
