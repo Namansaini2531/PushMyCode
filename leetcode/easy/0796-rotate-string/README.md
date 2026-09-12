@@ -39,13 +39,16 @@ Output: false
 
 **Language:** Java  
 **Runtime:** 2 ms (beats 63.58%)  
-**Memory:** 43.2 MB (beats 91.90%)  
-**Submitted:** 2026-09-12T20:01:05.024Z  
+**Memory:** 43.6 MB (beats 31.60%)  
+**Submitted:** 2026-09-12T20:02:25.758Z  
 
 ```java
 class Solution {
-    public boolean rotateString(String s, String goal) {
-        if(s.length() != goal.length()) return false;
+    public boolean rotateString(String s, String goal) 
+    {
+        if(s.length() != goal.length()) 
+        return false;
+
         return (s + s).contains(goal);
     }
 }
