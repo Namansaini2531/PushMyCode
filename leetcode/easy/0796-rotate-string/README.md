@@ -38,20 +38,15 @@ Output: false
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 63.58%)  
+**Runtime:** 1 ms (beats 98.44%)  
 **Memory:** 43.4 MB (beats 67.34%)  
-**Submitted:** 2026-09-12T19:58:45.634Z  
+**Submitted:** 2026-09-12T19:59:51.822Z  
 
 ```java
 class Solution {
     public boolean rotateString(String s, String goal) {
         if(s.length() != goal.length()) return false;
-
-        String str = s + s;
-
-        if(str.contains(goal)) return true;
-
-        return false;
+        return (s + s).contains(goal);
     }
 }
 ```
