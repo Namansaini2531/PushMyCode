@@ -51,36 +51,18 @@ Hence, persons $1$ and $3$ share a row in this instance, so there are $2$ people
 
 ## Solution
 
-**Language:** Java  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:01:59.782Z  
+**Submitted:** 2026-09-16T15:57:59.665Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+```c_cpp
+#include <bits/stdc++.h>
+using namespace std;
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
-		Scanner sc = new Scanner(System.in);
-		
-		int t = sc.nextInt();
-		
-		while(t-- > 0){
-		    int n = sc.nextInt();
-		    
-		    int k = sc.nextInt();
-		    
-		    int ans = Math.max(0, 2 * (k - n));
-		    
-		    System.out.println(ans);
-		}
-		sc.close();
-	}
+int main() {
+	// your code goes here
+
 }
 
 ```
