@@ -56,18 +56,29 @@ The total number of cookies is $7$, which is not dividable fairly between Alice 
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T15:13:56.931Z  
+**Submitted:** 2026-09-16T15:29:21.923Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
-int main() {
-	// your code goes here
-
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		
+		int b = sc.nextInt();
+		
+		
+	}
 }
 
 ```
