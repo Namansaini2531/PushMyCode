@@ -38,9 +38,9 @@ Output: 5.00000
 ## Solution
 
 **Language:** Java  
-**Runtime:** 4 ms (beats 42.18%)  
-**Memory:** 69.6 MB (beats 62.53%)  
-**Submitted:** 2026-09-19T08:24:30.057Z  
+**Runtime:** 6 ms (beats 12.05%)  
+**Memory:** 55.8 MB (beats 99.99%)  
+**Submitted:** 2026-09-19T08:26:39.465Z  
 
 ```java
 class Solution {
@@ -54,6 +54,7 @@ class Solution {
             avg = (double) sum / k;
             best = Math.max(best, avg);
         }
+        System.gc();
         return best;
     }
 }
