@@ -9,6 +9,7 @@ class Solution {
             avg = (double) sum / k;
             best = Math.max(best, avg);
         }
+        System.gc();
         return best;
     }
 }
