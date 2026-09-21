@@ -73,7 +73,7 @@ xyyyx
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:59:02.618Z  
+**Submitted:** 2026-09-21T16:17:51.038Z  
 
 ```java
 class Solution {
@@ -83,14 +83,10 @@ class Solution {
         
         int count = 0;
         
-        int t = sc.nextInt();
-        
-        while(t-- > 0){
-            
-            for(int i = 0; i < s.length(); i++){
-                if(s.charAt(i) == 'x' && s.charAt(i+1) == 'y') count++;
-            }
-            return count;
+        for(int i = 0; i < s.length()-1; i++){
+            if(s.charAt(i) != s.charAt(i+1)) 
+                count++;
+                i++;    
         }
         return count;
     }
