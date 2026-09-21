@@ -20,7 +20,7 @@ class Codechef
 		    int one = 0;
 		    
 		    for(int j = i; j < n; j++){
-		        if(s.charAt(i) == '0'){
+		        if(s.charAt(j) == '0'){
 		            zero++;
 		        }
 		        else{
