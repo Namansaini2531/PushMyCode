@@ -5,14 +5,10 @@ class Solution {
         
         int count = 0;
         
-        int t = sc.nextInt();
-        
-        while(t-- > 0){
-            
-            for(int i = 0; i < s.length(); i++){
-                if(s.charAt(i) == 'x' && s.charAt(i+1) == 'y') count++;
-            }
-            return count;
+        for(int i = 0; i < s.length()-1; i++){
+            if(s.charAt(i) != s.charAt(i+1)) 
+                count++;
+                i++;    
         }
         return count;
     }
