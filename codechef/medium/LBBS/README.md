@@ -65,7 +65,7 @@ It contains two `0`s and two `1`s, so the entire string becomes balanced. Theref
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T16:16:26.987Z  
+**Submitted:** 2026-09-21T16:17:18.372Z  
 
 ```java
 import java.util.*;
@@ -90,7 +90,7 @@ class Codechef
 		    int one = 0;
 		    
 		    for(int j = i; j < n; j++){
-		        if(s.charAt(i) == '0'){
+		        if(s.charAt(j) == '0'){
 		            zero++;
 		        }
 		        else{
