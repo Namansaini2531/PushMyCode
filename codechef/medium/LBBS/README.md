@@ -65,7 +65,7 @@ It contains two `0`s and two `1`s, so the entire string becomes balanced. Theref
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T16:06:45.437Z  
+**Submitted:** 2026-09-21T16:16:26.987Z  
 
 ```java
 import java.util.*;
@@ -77,7 +77,38 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+		Scanner sc = new Scanner(System.in);
+		
+		String s = sc.nextLine();
+		int k =  sc.nextInt();
+		
+		int n = s.length();
+		int maxLen = 0;
+		
+		for(int i = 0; i < n; i++){
+		    int zero = 0;
+		    int one = 0;
+		    
+		    for(int j = i; j < n; j++){
+		        if(s.charAt(i) == '0'){
+		            zero++;
+		        }
+		        else{
+		            one++;
+		        }
+		        
+		        int len = j - i + 1;
+		    
+		        if(len % 2 == 0){
+		            int need = Math.abs((zero - one) / 2);
+		        
+		            if(need <= k){
+		                maxLen = Math.max(len, maxLen);
+		            }
+		        }
+		    }
+		}
+		System.out.println(maxLen);
 	}
 }
 
