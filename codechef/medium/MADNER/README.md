@@ -73,7 +73,7 @@ xyyyx
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T16:17:51.038Z  
+**Submitted:** 2026-09-21T16:19:02.500Z  
 
 ```java
 class Solution {
@@ -86,7 +86,8 @@ class Solution {
         for(int i = 0; i < s.length()-1; i++){
             if(s.charAt(i) != s.charAt(i+1)) 
                 count++;
-                i++;    
+                i++; 
+            }
         }
         return count;
     }
