@@ -15,7 +15,17 @@ class Codechef
 		    int n = sc.nextInt();
 		    int k = sc.nextInt();
 		    
+		    int work = 0;
+		    int time = 0;
 		    
+		    while(work < n){
+		        time++;
+		        
+		        if(time % k != 0){
+		            work++;
+		        }
+		    }
+		    System.out.println(time);
 		}
 	}
 }
