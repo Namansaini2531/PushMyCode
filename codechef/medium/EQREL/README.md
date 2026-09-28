@@ -82,7 +82,7 @@ Therefore, no energy is required.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T15:19:47.894Z  
+**Submitted:** 2026-09-28T15:20:42.873Z  
 
 ```java
 import java.util.*;
