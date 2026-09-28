@@ -56,18 +56,25 @@ Chef earns no marks and loses $5 \times 2=10$ marks. His final score is $-10$, w
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T15:03:52.439Z  
+**Submitted:** 2026-09-28T15:05:18.431Z  
 
-```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
-int main() {
-	// your code goes here
-
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		
+		int c = sc.nextInt();
+	}
 }
 
 ```
