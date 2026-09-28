@@ -82,7 +82,7 @@ Therefore, no energy is required.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T15:20:42.873Z  
+**Submitted:** 2026-09-28T15:23:57.183Z  
 
 ```java
 import java.util.*;
@@ -94,7 +94,24 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		long sum = 0;
+		long min = Long.MAX_VALUE;
+		
+		for(int i = 0; i < n; i++){
+		    long h = sc.nextLong();
+		    
+		    sum += h;
+		    
+		    min = Math.min(min, h);
+		}
+		
+		long ans = sum - (long) n * min;
+		
+		System.out.println(ans);
 	}
 }
 
