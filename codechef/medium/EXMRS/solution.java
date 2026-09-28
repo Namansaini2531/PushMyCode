@@ -16,7 +16,7 @@ class Codechef
 		int r = sc.nextInt();
 		
 		int cor = c * m;
-		int inc = w * m;
+		int inc = w * p;
 		
 		if (cor - inc >= r){
 		    System.out.println("YES");
