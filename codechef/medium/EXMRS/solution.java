@@ -10,5 +10,19 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		
 		int c = sc.nextInt();
+		int m = sc.nextInt();
+		int w = sc.nextInt();
+		int p = sc.nextInt();
+		int r = sc.nextInt();
+		
+		int cor = c * m;
+		int inc = w * m;
+		
+		if (cor - inc >= r){
+		    System.out.println("YES");
+		}
+		else{
+		    System.out.println("NO");
+		}
 	}
 }
