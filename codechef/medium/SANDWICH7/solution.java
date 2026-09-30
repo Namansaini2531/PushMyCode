@@ -13,7 +13,7 @@ class Codechef
 		int h = sc.nextInt();
 		int c = sc.nextInt();
 		
-		int ans = 
+		int ans = Math.min(b / 2, h + c);
 		
 		System.out.println(ans);
 	}
