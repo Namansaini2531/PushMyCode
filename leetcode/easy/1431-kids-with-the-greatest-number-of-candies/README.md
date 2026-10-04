@@ -57,8 +57,8 @@ Output: [true,false,true]
 
 **Language:** Java  
 **Runtime:** 1 ms (beats 95.49%)  
-**Memory:** 43.9 MB (beats 61.08%)  
-**Submitted:** 2026-10-04T18:50:57.999Z  
+**Memory:** 43.7 MB (beats 78.46%)  
+**Submitted:** 2026-10-04T18:51:56.174Z  
 
 ```java
 class Solution {
