@@ -46,18 +46,18 @@ Output: [1,2,1,2]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 43 MB  
-**Submitted:** 2026-10-06T13:57:34.119Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 46.7 MB (beats 7.49%)  
+**Submitted:** 2026-10-06T14:08:00.656Z  
 
 ```java
 class Solution {
     public int[] shuffle(int[] nums, int n) {
-        int[] arr = new int[nums.length];
-
-        for(int i = 0; i < n; i++){
-            arr[i] = nums[i];
-            arr[i + n] = nums[i + n];
+        int[] arr = new int[2 * n];
+        int r = n+1;
+        for(int l = 0; l < n; l++){
+            arr[2 * l] = nums[l];
+            arr[2 * l + 1] = nums[n + l];
         }
 
         return arr;
