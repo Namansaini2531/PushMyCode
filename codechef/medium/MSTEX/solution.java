@@ -21,6 +21,8 @@ class Codechef
 		        arr[i] = sc.nextInt();
 		    }
 		    
+		    Arrays.sort(arr);
+		    
 		    int sum = 0;
 		    
 		    for(int i = n - k; i < n; i++){
