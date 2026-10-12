@@ -16,7 +16,7 @@ class Codechef
 		    int x = sc.nextInt();
 		    int y = sc.nextInt();
 		    
-		    int[] cops = sc.nextInt();
+		    int[] cops = new int[m]
 		    
 		    for(int i = 0; i < m; i++){
 		        cops[i] = sc.nextInt();
@@ -29,24 +29,18 @@ class Codechef
 		    for(int cop : cops){
                 int left = Math.max(1, cop - distance);
                 int right = Math.min(100, cop + distance);
-
                 for (int house = left; house <= right; house++) {
                     covered[house] = true;
                 }
             }
-
             int safe = 0;
-
             for (int house = 1; house <= 100; house++) {
-
                 if (!covered[house]) {
                     safe++;
                 }
             }
-
             System.out.println(safe);
         }
-
         sc.close();
 	}
 }
