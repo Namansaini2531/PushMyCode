@@ -23,7 +23,15 @@ class Codechef
 		    
 		    Arrays.sort(arr);
 		    
-		    int count = 
+		    int count = Math.min(k+1, n);
+		    
+		    int ans = 0;
+		    
+		    for(int i = 0; i < n; i++){
+		        ans += arr[i];
+		    }
+		    
+		    System.out.println(ans);
 		}
 	}
 }
