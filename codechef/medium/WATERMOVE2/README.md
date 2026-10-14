@@ -58,7 +58,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:20:33.519Z  
+**Submitted:** 2026-10-14T16:21:48.012Z  
 
 ```java
 import java.util.*;
@@ -86,7 +86,15 @@ class Codechef
 		    
 		    Arrays.sort(arr);
 		    
-		    int count = 
+		    int count = Math.min(k+1, n);
+		    
+		    int ans = 0;
+		    
+		    for(int i = 0; i < n; i++){
+		        ans += arr[i];
+		    }
+		    
+		    System.out.println(ans);
 		}
 	}
 }
