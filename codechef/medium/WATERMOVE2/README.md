@@ -58,7 +58,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:22:10.137Z  
+**Submitted:** 2026-10-14T16:23:40.892Z  
 
 ```java
 import java.util.*;
@@ -80,7 +80,7 @@ class Codechef
 		    
 		    int[] arr = new int[n];
 		    
-		    for(int i = n - count; i < n; i++){
+		    for(int i = 0; i < n; i++){
 		        arr[i] = sc.nextInt();
 		    }
 		    
@@ -90,7 +90,7 @@ class Codechef
 		    
 		    int ans = 0;
 		    
-		    for(int i = 0; i < n; i++){
+		    for(int i = n - count; i < n; i++){
 		        ans += arr[i];
 		    }
 		    
