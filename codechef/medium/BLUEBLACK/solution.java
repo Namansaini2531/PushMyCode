@@ -12,6 +12,6 @@ class Codechef
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		
+		System.out.println(Math.min(3 * a, a + b));
 	}
 }
