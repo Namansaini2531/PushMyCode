@@ -17,7 +17,7 @@ class Codechef
 		    
 		    int[] arr = new int[n];
 		    
-		    for(int i = n - count; i < n; i++){
+		    for(int i = 0; i < n; i++){
 		        arr[i] = sc.nextInt();
 		    }
 		    
@@ -27,7 +27,7 @@ class Codechef
 		    
 		    int ans = 0;
 		    
-		    for(int i = 0; i < n; i++){
+		    for(int i = n - count; i < n; i++){
 		        ans += arr[i];
 		    }
 		    
