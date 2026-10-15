@@ -39,8 +39,8 @@ Explanation: Since the list has two middle nodes with values 3 and 4, we return 
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.1 MB (beats 99.75%)  
-**Submitted:** 2026-10-15T08:01:10.091Z  
+**Memory:** 42.4 MB (beats 96.28%)  
+**Submitted:** 2026-10-15T08:02:01.563Z  
 
 ```java
 /**
