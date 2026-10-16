@@ -57,8 +57,8 @@ Node 0 with value 2 is the only node remaining after removing node 1.
 
 **Language:** Java  
 **Runtime:** 3 ms (beats 99.95%)  
-**Memory:** 202.2 MB (beats 92.35%)  
-**Submitted:** 2026-10-16T06:13:51.430Z  
+**Memory:** 202 MB (beats 95.87%)  
+**Submitted:** 2026-10-16T06:14:36.171Z  
 
 ```java
 /**
@@ -73,7 +73,8 @@ Node 0 with value 2 is the only node remaining after removing node 1.
  */
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
-        if(head.next == null) return null;
+        if(head == null || head.next == null) return null;
+
         ListNode fast = head.next.next;
         ListNode slow = head;
 
