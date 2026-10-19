@@ -77,7 +77,7 @@ Note that the subarrays are traversed from left to right.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T16:01:20.051Z  
+**Submitted:** 2026-10-19T16:01:30.034Z  
 
 ```java
 import java.util.*;
