@@ -21,17 +21,20 @@ class Codechef
 		    }
 		    
 		    int count = 0;
-		    int pos = 0;
 		    
 		    for(int i = 1; i < n; i++){
-		        if(nums[i] > nums[i-1]){
-		            count++;
-		            if(count)
-		        }
-		        else{
-		            count = 0;
+		        boolean good = true;
+		        
+		        for(int j = Math.max(0, i - 5); j < i; j++){
+		            if(nums[i] >= nums[j]){
+		                good = false;
+		                break;
+		            }
+		            
+		        if(good) count++;
 		        }
 		    }
+		    System.out.println(count);
 		}
 	}
 }
