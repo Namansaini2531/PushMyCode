@@ -11,10 +11,15 @@ class Codechef
 		
 		int n = sc.nextInt();
 		
-		int[] arr = new int[n];
+		HashSet<Integer> set = new HashSet<>();
 		
 		for(int i = 0; i < n; i++){
-		    nums[i] = sc.nextInt();
+		    int x = sc.nextInt();
+		    
+		    if(set.add(x)){
+		        System.out.println(x + " ");
+		    }
 		}
+		sc.close();
 	}
 }
