@@ -52,7 +52,7 @@ At position $7$, the value $410$ is smaller than the previous five values: $600,
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T15:57:42.618Z  
+**Submitted:** 2026-10-19T16:05:32.538Z  
 
 ```java
 import java.util.*;
@@ -78,17 +78,20 @@ class Codechef
 		    }
 		    
 		    int count = 0;
-		    int pos = 0;
 		    
 		    for(int i = 1; i < n; i++){
-		        if(nums[i] > nums[i-1]){
-		            count++;
-		            if(count)
-		        }
-		        else{
-		            count = 0;
+		        boolean good = true;
+		        
+		        for(int j = Math.max(0, i - 5); j < i; j++){
+		            if(nums[i] >= nums[j]){
+		                good = false;
+		                break;
+		            }
+		            
+		        if(good) count++;
 		        }
 		    }
+		    System.out.println(count);
 		}
 	}
 }
