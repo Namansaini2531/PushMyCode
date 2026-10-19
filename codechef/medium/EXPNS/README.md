@@ -54,7 +54,7 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T15:26:13.300Z  
+**Submitted:** 2026-10-19T15:28:24.622Z  
 
 ```java
 import java.util.*;
@@ -66,7 +66,21 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+		Scanner sc = new Scanner(System.in);
+		
+		int t = sc.nextInt();
+		
+		while(t-- > 0){
+		    int x = sc.nextInt();
+		    int y = sc.nextInt();
+		    
+		    if(y * 30 <= x){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		    }
+		}
 	}
 }
 
