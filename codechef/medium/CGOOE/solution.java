@@ -30,9 +30,9 @@ class Codechef
 		                good = false;
 		                break;
 		            }
-		            
-		        if(good) count++;
 		        }
+		        
+		        if(good) count++;
 		    }
 		    System.out.println(count);
 		}
