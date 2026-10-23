@@ -4,6 +4,12 @@
 
 ## Problem
 
+Bloomberg
+tcs
+Microsoft
+Google
+Meta
+
 Given a binary tree, find its minimum depth.
 
 The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
@@ -39,8 +45,8 @@ Output: 5
 
 **Language:** Java  
 **Runtime:** 4 ms (beats 72.84%)  
-**Memory:** 81.5 MB (beats 98.28%)  
-**Submitted:** 2026-10-23T04:12:02.355Z  
+**Memory:** 82.5 MB (beats 5.67%)  
+**Submitted:** 2026-10-23T04:54:39.827Z  
 
 ```java
 /**
@@ -60,9 +66,9 @@ Output: 5
  */
 class Solution {
     public int minDepth(TreeNode root) {
-        if(root == null) return 0;
-        if(root.left == null) return 1 + minDepth(root.right);
-        if(root.right == null) return 1 + minDepth(root.left);
+        if(root == null) return 0; // if root does not exist
+        if(root.left == null) return 1 + minDepth(root.right); // if leftnode is null
+        if(root.right == null) return 1 + minDepth(root.left); // if rightnode is null
 
         return 1 + Math.min(minDepth(root.left), minDepth(root.right));
     }
