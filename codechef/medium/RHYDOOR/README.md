@@ -66,7 +66,7 @@ BBBBAAAAABBBBBBB
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:58:12.484Z  
+**Submitted:** 2026-10-28T16:02:59.473Z  
 
 ```java
 import java.util.*;
@@ -85,10 +85,16 @@ class Codechef
 		while(t-- > 0){
 		    int n = sc.nextInt();
 		    
-		    String s = new string(n);
+		    String s = "";
+		    int countA = 0;
+		    int countB = 0;
 		    
 		    for(int i = 0; i < n; i++){
 		        s = sc.nextLine();
+		        
+		        if(s.charAt == 'A'){
+		            countA++;
+		        }
 		    }
 		}
 	}
