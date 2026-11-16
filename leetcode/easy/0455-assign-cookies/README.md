@@ -55,9 +55,9 @@ You need to output 2.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms  
-**Memory:** 41.3 MB  
-**Submitted:** 2026-11-15T20:48:54.010Z  
+**Runtime:** 16 ms (beats 15.95%)  
+**Memory:** 51.3 MB (beats 51.72%)  
+**Submitted:** 2026-11-16T16:59:30.056Z  
 
 ```java
 class Solution {
@@ -67,8 +67,8 @@ class Solution {
 
         int count = 0;
 
-        for(int i = 0; i < Math.min(g.length, s.length); i++){
-            if(g[i] == s[i]) count++;
+        for(int i = 0; i < s.length && count < g.length ; i++){
+            if(g[count] <= s[i]) count++;
         }
         return count;
     }
