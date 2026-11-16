@@ -5,8 +5,8 @@ class Solution {
 
         int count = 0;
 
-        for(int i = 0; i < Math.min(g.length, s.length); i++){
-            if(g[i] == s[i]) count++;
+        for(int i = 0; i < s.length && count < g.length ; i++){
+            if(g[count] <= s[i]) count++;
         }
         return count;
     }
